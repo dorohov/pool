@@ -127,6 +127,16 @@
 					.makeCols(4, 12);
 				}
 			}*/
+			&.is--address{
+				@media @media-point-screen {
+					margin-left: auto;
+				}
+			}
+			&.is--email{
+				@media @media-point-screen {
+					margin-right: auto;
+				}
+			}
 			&.is--address,
 			&.is--email{
 				@media @media-point-xxs {
@@ -136,6 +146,10 @@
 			&.is--soc{
 				@media @media-point-device {
 					order: 1;
+				}
+				@media @media-point-screen {
+					padding-left: ~"calc(15px + 3vw)";
+					padding-right: ~"calc(15px + 3vw)";
 				}
 			}
 		}
@@ -161,6 +175,12 @@
 		}
 		@media @media-point-smart {
 			padding-left: 0;
+		}
+		&.is--footer{
+		a&,a:hover&,a:focus&, &{			
+			color: @black!important;
+		}
+
 		}
 		&.is--contacts{
 			color: @b-color-h;
