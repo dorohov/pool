@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/navbar-second.html"
+			navbar_prefix="navbar__"
+			navbar_mod="is--scroll"
+		]] 
+		[[azbntple  
+			tpl="/src/block/site/page/catalog-card.html"
+			content_prefix="content-block__"       
+			content_mod="  "    
+			block_heading_mod="is--page-heading  is--center"
+			block_heading_level="h1"
+			block_heading="Бассейн «Флоран»"
+			block_bread_mod="is--center"  
+			block_bread_level_1_link="{{page.catalog}}"
+			block_bread_level_1="Стоимость"  
+		]]		
+		[[azbntple 
+			tpl="/src/block/site/default/form/block.html" 
+			block_prefix="form-panel__"
+			block_mod="is--block"
+			block_bg="{{url-path-img}}/temp/bg-form.jpg"
+			form_prefix="form__"
+			form_id="f_block"
+			form_mod="is--block" 
+			form_color="is--white"
+			form_heading="Готовы работать с нами?"
+			form_heading_small="Заполните форму ниже и получите скидку 5%"
+			form_heading_mod="is--form-block"
+			form_btn_name="Отправить"
+			form_btn_mod="is--white  is--sm"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+		]]
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+		[[azbntple tpl="/src/block/site/default/modals/include.html" ]]
+	</body>
+</html>

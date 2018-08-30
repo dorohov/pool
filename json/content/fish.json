@@ -1,0 +1,60 @@
+{
+	"contacts":{
+		"name":"Бюро Бассейнов",
+		"domain":"бюро-бассейнов.рф",
+		"domain_link":"http://xn----8sbbbgr2a6adgoqa9o.xn--p1ai/",
+		"color":"#0460a2",
+		"agreement_page":"agreement",
+		"copyright":"Бюро Бассейнов",
+		"email":"tika07@yandex.ru",
+		"phone":" +7 (910) 308-84-57",  
+		"phone_tel":"+79103088457",   
+		"clock":"<p>Пн-Пт: 8:00-17:00. Перерыв 13:00-14:00</p><p>Сб-Вс: выходной</p>",  
+		"address":"г. Орёл, ул. Карачевская, 68"
+	},
+	"soc":{
+		"vk":"https://vk.com/",
+		"fb":"https://www.facebook.com/",
+		"ok":"https://ok.ru/group/",
+		"tw":"https://twitter.com/",
+		"inst":"https://www.instagram.com/"
+	},
+	"page":{
+		"index":"/",
+		"portfolio":"/portfolio.html",
+		"portfolio_card":"/portfolio-card.html",
+		"catalog":"/catalog.html",
+		"catalog_category":"/catalog-category.html",
+		"catalog_card":"/catalog-card.html",
+		"about":"/about.html",
+		"services":"/services.html",
+		"services_card":"/services-card.html",
+		"action_card":"/action-card.html",
+		"price":"/price.html",
+		"reviews":"/reviews.html",
+		"articles":"/articles.html",
+		"articles_card":"/articles-card.html",
+		"contacts":"/contacts.html",
+		"404":"/404.html",
+		"sitemap":"/sitemap.html",
+		"style":"/style.html",
+		"agreement":"/agreement.html"
+	},
+	"block":{
+		"header":"header", 
+		"adv":"adv", 
+		"adv":"adv", 
+		"gallery":"gallery", 
+		"catalog":"catalog", 
+		"about":"about", 
+		"portfolio":"portfolio", 
+		"reviews":"reviews", 
+		"contacts":"contacts"
+	},                       
+	"url-path-css":"/css",
+	"url-path-img":"/img",
+	"url-path-js":"/js",
+	"url-path-plugins":"/plugins",
+	"url-path-favicon":"/favicon",
+	"url-path-docs":"/docs"
+}

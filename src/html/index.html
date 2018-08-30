@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body class="is--index-page"> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/navbar.html"
+			navbar_prefix="navbar__"
+			navbar_mod="is--scroll  is--index"
+			navbar_block="#block-"
+			navbar_exp="  "
+			navbar_scrollto="scrollto"
+		]] 
+		[[azbntple 
+			tpl="/src/block/site/default/header/panel.html"
+			block_prefix="header-block__"
+			block_heading="Дизайнерский бассейн в рамках вашего бюджета"
+			block_heading_small="Авторские бассейны, купели и&nbsp;бани<br> от&nbsp;Максима Грядунова"
+			block_id="block-{{block.header}}"
+		]]	
+		[[azbntple  
+			tpl="/src/block/site/page/index-adv.html"
+			content_prefix="content-block__"
+			content_mod="is--adv-index"
+			content_id="block-{{block.adv}}"
+			block_heading_mod="is--adv-index"
+			block_heading_level="h2"
+			block_heading="Реализуем для вас абсолютно любой проект!"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/index-gallery.html"
+			content_prefix="content-block__"
+			content_mod="is--gallery-index"
+			content_id="block-{{block.gallery}}"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/index-catalog.html"
+			content_prefix="content-block__"
+			content_mod="is--catalog-index"
+			content_id="block-{{block.catalog}}"
+			block_heading_mod="is--index-heading  is--catalog-index"
+			block_heading_level="h2"
+			block_heading="Делайте правильный выбор"
+		]]	
+		[[azbntple  
+			tpl="/src/block/site/page/index-about.html"
+			content_prefix="content-block__"
+			content_mod="is--about-index"
+			content_id="block-{{block.about}}"
+			block_heading_mod="is--index-heading"
+			block_heading_level="h2"
+			block_heading="Обо мне"
+		]]	
+		[[azbntple  
+			tpl="/src/block/site/page/index-portfolio.html"
+			content_prefix="content-block__"   
+			content_mod="is--portfolio-index"
+			content_id="block-{{block.portfolio}}"
+			block_heading_mod="is--index-heading"
+			block_heading_level="h2"
+			block_heading="Мои работы"
+		]]	
+		[[azbntple  
+			tpl="/src/block/site/page/index-reviews.html"
+			content_prefix="content-block__"   
+			content_mod="is--reviews-index"
+			content_id="block-{{block.reviews}}"
+			block_heading_mod="is--index-heading"
+			block_heading_level="h2"
+			block_heading="Отзывы"
+		]]	
+		[[azbntple  
+			tpl="/src/block/site/default/contacts/panel.html"
+			content_prefix="kontakty-panel__"       
+			content_mod="  "
+			content_id="block-{{block.contacts}}"
+			block_heading_mod="is--index-contacts"
+			block_heading_level="h2"
+			block_heading="Контакты"  
+		]]		
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+		[[azbntple tpl="/src/block/site/default/modals/include.html" ]]
+		[[azbntple tpl="/src/block/site/default/script/googleMap.html" ]]
+	</body>
+</html>
