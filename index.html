@@ -694,39 +694,51 @@
 </div> 	
 		<div class="kontakty-panel__block"  id="block-contacts">
 	<div class="kontakty-panel__panel">
-		<div class="page-header__panel  is--index-contacts">
-	<div class="page-header__block  is--index-contacts">
-	<h2  class="page-header__heading  is--index-contacts">Контакты</h2>		
+		
+
+		<div class="form-panel__panel    ">
+	<div class="form-panel__panel-inner    ">
+		<div class="page-header__block  is--form-panel  is--contacts">
+	<h3 class="page-header__heading  is--form-panel  is--contacts"><span>Готовы работать с нами?</span></h3>	
+	<div class="page-header__heading-small  is--form-panel  is--contacts">Заполните форму ниже и получите скидку 5%</div>		
 </div>
+		<form action="#" class="form__block  is--block"  >
+	<input type="hidden" name="key" value="londonisthecapitalofgreatbritain">
+	<input type="hidden" name="f[Форма: Готовы работать с нами?]">
+	<div class="form__inner  is--block"  >
+		<div class="row form__row  is--block  is--wrap">
+			<div class="cols form__cols  is--block  is--name">
+				<div class="form__item  is--block  is--name">
+	<input type="text"     class="form__control form-control validate[required, custom[onlyLetterSp]]  is--block      is--name" id="f_block[name]" name="f[Имя]" placeholder="Имя">
 </div>
-		<div class="social-contacts__block">
-	<div class="social-contacts__row row  is--contacts">
-		<div class="social-contacts__cols cols  is--address  is--contacts">
-			<div class="social-contacts__item   is--contacts">
-				<span class="social-contacts__item-icon  is--contacts"><svg class="icon-svg icon-contacts-address" role="img">
-	<use xlink:href="/img/svg/sprite.svg#contacts-address"></use>
-</svg></span>
-				<span class="social-contacts__item-name  is--contacts">г. Орёл, ул. Карачевская, 68</span>
 			</div>
-		</div>
-		<div class="social-contacts__cols cols  is--tel  is--contacts">
-			<a href="tel:+79103088457" class="social-contacts__item   is--contacts">
-				<span class="social-contacts__item-icon  is--contacts"><svg class="icon-svg icon-contacts-tel" role="img">
-	<use xlink:href="/img/svg/sprite.svg#contacts-tel"></use>
-</svg></span>
-				<span class="social-contacts__item-name  is--contacts"> +7 (910) 308-84-57</span>
-			</a>
-		</div>
-		<div class="social-contacts__cols cols  is--email  is--contacts">
-			<a href="mailto:tika07@yandex.ru" class="social-contacts__item   is--contacts">
-				<span class="social-contacts__item-icon  is--contacts"><svg class="icon-svg icon-contacts-email" role="img">
-	<use xlink:href="/img/svg/sprite.svg#contacts-email"></use>
-</svg></span>
-				<span class="social-contacts__item-name  is--contacts">tika07@yandex.ru</span>
-			</a>
-		</div>
-	</div>
+			<div class="cols form__cols  is--block  is--tel">
+				<div class="form__item  is--block  is--tel">
+	<input type="tel"     class="form__control form-control validate[required, custom[phone]]  is--block      is--tel" id="f_block[tel]" name="f[Телефон для связи]" placeholder="Телефон для связи">
 </div>
+			</div>
+			<div class="cols form__cols  is--block  is--textarea">
+				<div class="form__item  is--block  is--textarea">
+	<input type="tel"     class="form__control form-control validate[required]  is--block      is--textarea" id="f_block[text]" name="f[Комментарий]" placeholder="Комментарий">
+</div>
+			</div>
+			<div class="cols form__cols  is--block  is--agreement">
+				<div class="form__item  is--agreement  is--block    ">
+	<div class="form__text  is--block        ">
+		Нажимая на кнопку «Отправить» вы соглашаетесть с правилами обработки <a href='/agreement.html' target='_blank'>персональных данных</a>
+	</div>	
+</div>	
+			</div>
+			<div class="cols form__cols  is--block  is--btn">
+				<button type="submit" class="btn__item  is--sm"><span>Отправить</span></button>				
+			</div>
+		</div>	
+	</div> 
+</form> 	
+	</div>
+</div> 
+
+		
 	</div>
 	<div class="kontakty-panel__map" id="map-google" data-map='{"center" : [52.9575,36.0585],"center_xs" : [52.9560,36.0585],"zoom" : 17,"zoom_xs" : 16,"placemarks" : [{"coord" : [52.956167, 36.058385]}]}' ></div>
 </div>		
@@ -824,6 +836,11 @@ document.createElement("picture");
 	<input type="tel"     class="form__control form-control validate[required, custom[phone]]  is--calc      is--tel" id="fm_calc[tel]" name="f[Телефон для связи]" placeholder="Телефон для связи">
 </div>
 			</div>
+			<div class="cols form__cols  is--calc  is--textarea">
+				<div class="form__item  is--calc  is--textarea">
+	<input type="tel"     class="form__control form-control validate[required]  is--calc      is--textarea" id="fm_calc[text]" name="f[Комментарий]" placeholder="Комментарий">
+</div>
+			</div>
 			<div class="cols form__cols  is--calc  is--agreement">
 				<div class="form__item  is--agreement  is--calc    ">
 	<div class="form__text  is--calc        ">
@@ -875,6 +892,11 @@ document.createElement("picture");
 			<div class="cols form__cols  is--calc  is--tel">
 				<div class="form__item  is--calc  is--tel">
 	<input type="tel"     class="form__control form-control validate[required, custom[phone]]  is--calc      is--tel" id="fm_master[tel]" name="f[Телефон для связи]" placeholder="Телефон для связи">
+</div>
+			</div>
+			<div class="cols form__cols  is--calc  is--textarea">
+				<div class="form__item  is--calc  is--textarea">
+	<input type="tel"     class="form__control form-control validate[required]  is--calc      is--textarea" id="fm_master[text]" name="f[Комментарий]" placeholder="Комментарий">
 </div>
 			</div>
 			<div class="cols form__cols  is--calc  is--agreement">

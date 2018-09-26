@@ -1367,7 +1367,7 @@
 					position: absolute;
 					width: 100%;
 					z-index: 3;
-					bottom: 1vw;
+					bottom: 0.5vw;
 					left: 0;					
 				}
 				@media @media-point-screen {					
@@ -1375,6 +1375,8 @@
 				}
 				img{
 					box-shadow: 4px 4px 12px fadeout(@black, 75%);
+					border: 2px solid @white;
+					margin-bottom: 12px;
 				}
 			}
 		}
@@ -1602,11 +1604,11 @@
 			position: absolute;
 			z-index: 2;
 			background-color: @white;
-			top: 20%;
+			top: 10%;
 			left: 50%;
 			max-width: 975px;
 			width: 100vw;
-			padding: 4.9vw 3.4vw 4vw;	
+			padding: 3vw 3.4vw;	
 			box-shadow: 6px 4px 17px fadeout(@black, 85%);	
 			transform: translateX(-50%);	
 		}
@@ -1823,22 +1825,15 @@
 			@media @media-point-device-xl{
 				display: none;
 			}
+			@media @media-point-smart {
+				display: block;
+			}
 		}
 	}
 	&dorohovdesign-text{
 		font-size: @b-fs - 4px;
 		line-height: @b-lh - 4px;    
 		margin-left: auto;
-		//color: @blue;
-		//letter-spacing: 1px;
-		//text-transform: uppercase;
-		//font-weight: 700;
-		//color: @blue-light;
-		@media @media-point-device-xl{
-			//padding-bottom: 2px;
-		    //text-align: left;
-		    display: none;
-		}
 	}		
 	&dorohovdesign-logotip{	
 		border: none;
@@ -4008,6 +4003,10 @@ body.rtl .formError .formErrorArrow {
 		&.is--form-panel{
 			.heading3();
 			font-weight: 700;
+			&.is--contacts{
+				.heading1();
+				text-align: center;
+			}
 		}	
 		&.is--form-block{
 			.heading1();
@@ -4063,6 +4062,16 @@ body.rtl .formError .formErrorArrow {
 						padding-top: 5px;
 					}			
 					padding-top: 15px;
+				}
+			}
+			&.is--contacts{
+				text-align: center;	
+				.calcFontSize(19, 23, 320, 1680);
+				.calcLineHeight(23, 27, 320, 1680);
+				.page-header__heading + &{
+					@media @media-point-screen {
+						padding-top: 20px;
+					}
 				}
 			}
 		}

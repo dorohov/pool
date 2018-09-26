@@ -89,6 +89,10 @@
 		&.is--form-panel{
 			.heading3();
 			font-weight: 700;
+			&.is--contacts{
+				.heading1();
+				text-align: center;
+			}
 		}	
 		&.is--form-block{
 			.heading1();
@@ -144,6 +148,16 @@
 						padding-top: 5px;
 					}			
 					padding-top: 15px;
+				}
+			}
+			&.is--contacts{
+				text-align: center;	
+				.calcFontSize(19, 23, 320, 1680);
+				.calcLineHeight(23, 27, 320, 1680);
+				.page-header__heading + &{
+					@media @media-point-screen {
+						padding-top: 20px;
+					}
 				}
 			}
 		}

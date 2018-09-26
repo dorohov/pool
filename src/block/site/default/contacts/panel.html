@@ -1,14 +1,31 @@
 <div class="{{content_prefix}}block"  id="{{content_id}}">
 	<div class="{{content_prefix}}panel">
 		[[azbntple 
-			tpl="/src/block/site/default/page-header/panel-heading.html"
+			tpl="*/src/block/site/default/page-header/panel-heading.html"
 			block_prefix="page-header__" 
 			block_mod="{{block_heading_mod}}"
 			block_heading_level="{{block_heading_level}}"
 			block_heading="{{block_heading}}"
 		]]
+
 		[[azbntple 
-			tpl="/src/block/site/default/social/panel-contacts.html" 
+			tpl="/src/block/site/default/form/panel.html" 
+			block_prefix="form-panel__"
+			block_mod="  "
+			block_bg="{{url-path-img}}/temp/bg-form.jpg"
+			form_prefix="form__"
+			form_id="f_block"
+			form_mod="is--block" 
+			form_color="  "
+			form_heading="Готовы работать с нами?"
+			form_heading_small="Заполните форму ниже и получите скидку 5%"
+			form_heading_mod="is--form-panel  is--contacts"
+			form_btn_name="Отправить"
+			form_btn_mod="is--sm"
+		]]
+
+		[[azbntple 
+			tpl="8/src/block/site/default/social/panel-contacts.html" 
 			block_prefix="social-contacts__" 
 			block_mod="is--contacts" 
 		]]
